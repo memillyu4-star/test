@@ -1,0 +1,111 @@
+.one {
+	position: absolute;
+	background-color: black;
+	height: 20%;
+	width: 100%;
+	top: 0%;
+	left: 0;
+}
+
+.two {
+	position: absolute;
+	background-color: gray;
+	height: 10%;
+	width: calc(100%/2);
+	top: calc(100%/5);
+	left: 0px;
+	display: flex;
+}
+
+.three {
+	position: absolute;
+	background-color: darkgray;
+	height: 10%;
+	width: calc(100%/2);
+	top: calc(100%/5);
+	right: 0px;
+	display: flex;
+}
+
+.four {
+	position: absolute;
+	background-color: lightyellow;
+	height: 60%;
+	width: calc(100%/2);
+	bottom: 10%;
+	left: 0;
+	display: flex;
+}
+
+.five {
+	position: absolute;
+	background-color: lightcyan;
+	height: 60%;
+	width: calc(100%/2);
+	bottom: 10%;
+	right: 0;
+	display: flex;
+}
+
+.six {
+	position: absolute;
+	background-color: lightsalmon;
+	height: 10%;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	display: flex;
+}
+
+
+@media screen and (max-width: 900px) {
+	section {
+		flex-direction: column;
+	}
+
+	.one {
+		position: absolute;
+		top: 0;
+		height: 10%;
+	}
+
+	.two {
+		position: absolute;
+		top: 10%;
+		width: 50%;
+		height: 20%;
+	}
+
+	.three {
+		position: absolute;
+		top: 10%;
+		left: 50%;
+		width: 50%;
+		height: 20%;
+	}
+
+	.four {
+		position: absolute;
+		bottom: 0%;
+		left: 0;
+		width: 50%;
+		height: 70%;
+	}
+
+	.five {
+		position: absolute;
+		bottom: 0%;
+		width: 40%;
+		height: 70%;
+		left: 50%;
+	}
+
+	.six {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		width: 10%;
+		height: 70%;
+	}
+
+}
